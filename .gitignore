@@ -1,0 +1,48 @@
+# ====================================================================
+# PROJECT SHIELD: GITUSAGE .GITIGNORE
+# ====================================================================
+
+# --- 1. THE "SECRET" VAULT ---
+# Never upload real passwords, IP addresses, or API keys.
+.env
+.env.local
+secrets.txt
+credentials.json
+*.pem
+*.key
+
+# --- 2. LOGS & PERSONAL TRACES ---
+# Logs often leak your VPS IP address and system usernames.
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.oci/
+.ssh/
+
+# --- 3. SYSTEM & EDITOR JUNK ---
+# Clean up files created by Windows, Mac, or VS Code.
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.swp
+*.bak
+
+# --- 4. TEMPORARY & CACHE ---
+# Files that are only needed while the code is running.
+tmp/
+temp/
+*.tmp
+*.temp
+__pycache__/
+.pytest_cache/
+
+# --- 5. PRIVATE WORKSPACE ---
+# A special "cloaked" folder for any messy notes or raw data.
+private/
+research_data/
+
+# ====================================================================
+# End of .gitignore
+# ====================================================================
