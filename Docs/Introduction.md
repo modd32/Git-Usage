@@ -51,6 +51,15 @@ Stage -- Commit -- Push
 git add . -- git commit -m "" -- git push
 ```
 
+For committing file changes separately
+```
+git status
+git add <filename> # with location like Docs/filename.md
+git commit -m "commit message"
+```
+
+You can run `git push` once to publish all the commits on GitHub
+
 ## Step 8:
 Now you can create a new branch with:
 ```
