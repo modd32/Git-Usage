@@ -2,9 +2,6 @@
 Create a repo on GitHub.
 
 ## Step 2:
-
-
-## Step 2:
 Run code:
 ```
 git clone https://<your_GitHub_repo_link> #Create a folder with the same name and clone the cloud repo into it
@@ -14,7 +11,7 @@ git clone https://<your_GitHub_repo_link> #Create a folder with the same name an
 Make sure you are in the current folder
 Run code:
 ```
-pws #show your current folder
+pwd #show your current folder
 ```
 
 and check status
